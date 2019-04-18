@@ -9,7 +9,10 @@ body, html {
   font-family: 'Arial', sans-serif;
   height: 100vh;
   overflow-x: hidden;
-}
+  background-image: -webkit-linear-gradient(left, #ffecd2 0%, #fcb69f 100%);
+  background-image: -o-linear-gradient(left, #ffecd2 0%, #fcb69f 100%);
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  }
 
 .navigation {
   background-color: darkgoldenrod;
