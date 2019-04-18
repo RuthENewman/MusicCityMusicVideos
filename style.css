@@ -27,7 +27,7 @@ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 .logo {
   color: white;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 15px;
   margin-left: 80px;
   position: absolute;
@@ -88,7 +88,7 @@ iframe {
       text-align: center;
     }
 
-    iframe .randomVideoIFrame {
+    .randomVideoIFrame {
       width: 336px;
       height: 189px;
     }
