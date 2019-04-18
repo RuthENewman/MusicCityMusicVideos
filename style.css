@@ -36,7 +36,7 @@ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 
 .navigation img {
   height: 50px;
-  margin: 10px 20px;
+  margin: 10px 15px;
   display: flex;
 }
 
@@ -92,6 +92,5 @@ iframe {
       width: 336px;
       height: 189px;
     }
-
 
     }
