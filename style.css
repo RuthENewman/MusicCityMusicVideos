@@ -23,25 +23,24 @@ body, html {
   flex-direction: row;
 }
 
-.navigation a {
+.logo {
   color: white;
   text-decoration: none;
   margin-top: 20px;
   margin-bottom: 15px;
-  margin-left: 10px;
-
-}
-
-.logo {
-
+  margin-left: 80px;
+  position: absolute;
+  display: flex;
+  font-size: 25px;
 }
 
 .navigation img {
   height: 50px;
   margin: 10px 20px;
+  position: absolute;
   display: flex;
-}
 
+}
 
 h3.heading {
   margin-bottom: 0.3em;
@@ -76,3 +75,17 @@ h3.heading {
   margin: 0 auto;
   text-align: center;
 }
+
+@media only screen and (max-device-width: 480px) {
+      .content {
+        width: 100%;
+        position: relative;
+        margin: 0;
+        text-align: center;
+      }
+
+      iframe {
+        width: 316px;
+        height: 
+      }
+    }
