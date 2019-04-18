@@ -25,9 +25,9 @@ function getRandomVideo() {
       let randomVideoId = randomVideo.snippet.resourceId.videoId;
       content.innerHTML =
       `<iframe
-        width="672"
+      
         class="randomVideoIFrame"
-        height="378"
+
         src="https://www.youtube.com/embed/${randomVideoId}"
         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>

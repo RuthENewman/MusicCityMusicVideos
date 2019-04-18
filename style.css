@@ -9,6 +9,7 @@ body, html {
   font-family: 'Arial', sans-serif;
   height: 100vh;
   overflow-x: hidden;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
 .navigation {
@@ -23,17 +24,14 @@ body, html {
   flex-direction: row;
 }
 
-.navigation a {
+.logo {
   color: white;
   text-decoration: none;
   margin-top: 20px;
   margin-bottom: 15px;
-  margin-left: 10px;
-
-}
-
-.logo {
-
+  margin-left: 80px;
+  position: absolute;
+  font-size: 25px;
 }
 
 .navigation img {
@@ -76,3 +74,24 @@ h3.heading {
   margin: 0 auto;
   text-align: center;
 }
+
+iframe {
+  width: 672px;
+  height: 378px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .content {
+      width: 100%;
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    iframe {
+      width: 336px;
+      height: 189px;
+    }
+
+
+    }
