@@ -14,6 +14,7 @@ const playlistItemsURL = `${corsProxy}https://www.googleapis.com/youtube/v3/play
 getVideoButton.addEventListener('click', getRandomVideo)
 
 function getRandomVideo() {
+  content.innerHTML = '<p class="loadingMessage">Choosing a music video for you...</p>';
   fetch(playlistItemsURL)
     .then(response => response.json())
     .then(data => {
